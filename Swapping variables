@@ -1,0 +1,8 @@
+a = float(input('a = '))
+b = float(input('b = '))
+
+c=b
+b=a
+a=c
+
+print('The new values of a and b are {} and {}'.format(a,b))
