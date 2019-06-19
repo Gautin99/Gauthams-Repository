@@ -1,4 +1,4 @@
-a = float(input('Enter a number: '))
+a = float(input("Please enter a number "))
+b = a ** 0.5
 
-float b = a**.5
-print(b)
+print('The square root of %f is %f'%(a,b))
