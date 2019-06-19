@@ -1,0 +1,28 @@
+a = int(input('Please enter a number: '))
+i = 10
+f = 1
+e = a
+
+for d in range(1,a):
+    
+    e = int(e/10)
+    f = f+1
+    
+    if(e==0):
+        
+        i=i**f
+        break
+
+for c in range(1,a):
+    
+    b = int(a/i)
+    a = a%i
+    i = i/10
+    
+    if(a==0):
+        
+        break
+        
+    else:
+    
+        print(b)
