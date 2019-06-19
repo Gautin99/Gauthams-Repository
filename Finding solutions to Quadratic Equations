@@ -1,0 +1,14 @@
+import cmath
+
+print('Solve quadratic ax2 + bx + c')
+
+a = float(input("Please enter a: "))
+b = float(input("Please enter b: "))
+c = float(input("Please enter c: "))
+
+d = float(b**2 - 4*a*c)
+
+e = (-b + cmath.sqrt(d))/(2*a)
+f = (b + cmath.sqrt(d))/(2*a)
+
+print('The solutions to the quadratic are: {} and {}'.format(e,f))
