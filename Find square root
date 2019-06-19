@@ -1,5 +1,4 @@
-int a
+a = float(input('Enter a number: '))
 
-int b=sqrt(a)
-
+float b = a**.5
 print(b)
