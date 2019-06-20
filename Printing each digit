@@ -1,6 +1,6 @@
 a = int(input('Please enter a number: '))
 i = 10
-f = 1
+f = 0
 e = a
 
 for d in range(1,a):
@@ -10,19 +10,16 @@ for d in range(1,a):
     
     if(e==0):
         
-        i=i**f
+        i=i**(f-1)
         break
-
-for c in range(1,a):
+        
+for c in range(f):
     
     b = int(a/i)
     a = a%i
     i = i/10
+    print(b)
     
     if(a==0):
-        
+
         break
-        
-    else:
-    
-        print(b)
