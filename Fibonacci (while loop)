@@ -1,0 +1,13 @@
+a = int(input(print('Please enter the limit of the Fibonacci sequence: ')))
+fib  = 0
+fib1 = 1
+fib2 = 1
+
+print(fib1)
+print(fib2)
+
+while(fib<a):
+        fib = fib1 + fib2
+        fib1 = fib2
+        fib2 = fib
+        print(fib)
